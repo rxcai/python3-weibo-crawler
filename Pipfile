@@ -1,0 +1,22 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[packages]
+
+requests = "*"
+requests-toolbelt = "*"
+pymysql = "*"
+peewee = "*"
+
+
+[dev-packages]
+
+
+
+[requires]
+
+python_version = "3.6"
