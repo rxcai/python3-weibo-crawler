@@ -25,6 +25,7 @@ BASE_STATUS_URL = "https://m.weibo.cn/status/"
 def get_user_weibo_list(uid_tuple):
     print(f'Run task {uid_tuple[0]}')
     page = 1
+    # 这里的 '107603' 是我观察得到的，微博 mobile 不需要通过登陆或者 cookie 的形式来获取信息
     containerid = '107603' + uid_tuple[1]
     weibo_list = []
     source = uid_tuple[0]
